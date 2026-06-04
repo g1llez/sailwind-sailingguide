@@ -1,0 +1,26 @@
+# Build output
+dev/plugin/SailingGuide/bin/
+dev/plugin/SailingGuide/obj/
+dev/plugin/bin/
+
+# Local / IDE
+.vs/
+*.user
+*.suo
+*.code-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local commit helper
+.commit-msg.txt
+
+# Authoring workspace (heavy WIP — keep on disk only)
+dev/_workspace/
+
+# Release artifacts (when added)
+release/staging/
+release/*.zip
+thunderstore/_staging/
+thunderstore/*.zip

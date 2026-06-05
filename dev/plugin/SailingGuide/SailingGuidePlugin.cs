@@ -58,7 +58,7 @@ namespace SailingGuide
             PageFileNames = Config.Bind(
                 "Guide",
                 "PageFileNames",
-                "alankh/01-cover.png,alankh/02-legend.png,alankh/03-guide.png,alankh/04-neverdin.png",
+                "alankh/01-cover.png,alankh/02-legend.png,alankh/03-neverdin-1.png,alankh/04-neverdin-2.png,alankh/05-lionsfang.png",
                 "Comma-separated PNG paths relative to PagesDirectory (page order).");
 
             ScrollDisplayName = Config.Bind(

@@ -23,7 +23,7 @@ Each **guide** = one scroll in game (list of PNGs in config). File order = `01-`
 ```ini
 [Guide]
 PagesDirectory = pages/en
-PageFileNames = alankh/01-cover.png,alankh/02-legend.png,...
+PageFileNames = alankh/01-cover.png,alankh/02-legend.png,alankh/03-neverdin-1.png,alankh/04-neverdin-2.png,alankh/05-lionsfang.png
 ```
 
 For French in-game, set `PagesDirectory = pages/fr` (or install the FR release zip).
@@ -39,4 +39,4 @@ Same `SailingGuide.dll` in both packages; only the `pages/<lang>/` tree differs.
 
 Optional later: a **pages-only** FR add-on zip for users who already have the EN plugin.
 
-Authoring sources: `dev/Assets/guides/archipelago/<id>/pages/en/svg/`.
+Authoring sources: `dev/Assets/guides/archipelago/pages/<id>/` (`.svg` + `.txt`).

@@ -1,0 +1,45 @@
+English
+
+Title1 : THE SAILOR'S DIARY
+Title2 : Al'Ankh Sailing Guide
+
+Description :
+
+The Al'Ankh archipelago, southwest of the World, has eleven islands—each welcoming in its own way. The weather is usually mild: you can take time to fish along the way and enjoy a good local wine.
+
+Al'Ankh Academy awaits you for its books; on Alchemist's Island, potions will help you on your travels.
+
+Sail Safe!
+
+Summary (left):
+WIND
+CAPITAL
+CURRENCY
+
+Summary (right):
+WSW
+GOLD ROCK CITY
+AL'ANKH LIONS
+
+Français
+
+Title1 : LE CARNET DU MARIN
+Title2 : Guide de navigation — Al'Ankh
+
+Description :
+
+L'archipel d'Al'Ankh, au sud-ouest du Monde, compte onze îles — chacune accueillante à sa manière. La météo est en général douce : on peut prendre le temps de pêcher en route et savourer un bon vin local.
+
+L'Académie d'Al'Ankh vous attend pour ses livres ; sur l'île de l'Alchimiste, les potions vous aideront en voyage.
+
+Bon Voyage! 
+
+Summary (left):
+VENT
+CAPITALE
+MONNAIE
+
+Summary (right):
+WSW
+GOLD ROCK CITY
+AL'ANKH LIONS

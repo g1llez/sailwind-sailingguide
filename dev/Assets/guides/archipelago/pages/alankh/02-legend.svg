@@ -10,7 +10,7 @@
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    sodipodi:docname="02-legend.svg"
    xml:space="preserve"
-   inkscape:export-filename="D:\Games\Sailwind\mods\SailingGuide\pages\fr\alankh\02-legend.png"
+   inkscape:export-filename="D:\Games\Sailwind\mods\SailingGuide\pages\en\alankh\02-legend.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -35,7 +35,7 @@
      inkscape:window-x="3829"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g28" /><defs
+     inkscape:current-layer="layer3" /><defs
      id="defs1"><rect
        x="-1236.7495"
        y="78.718144"
@@ -298,7 +298,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Content EN"
-     style="display:none"><text
+     style="display:inline"><text
        xml:space="preserve"
        id="text5"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -308,7 +308,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,52.906375,-48.478207)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan7">Fruit</tspan></text><text
+         id="tspan2">Fruit</tspan></text><text
        xml:space="preserve"
        id="text5-61-2"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-5);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -318,7 +318,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,53.470832,34.785479)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan12">Meat</tspan></text><text
+         id="tspan3">Meat</tspan></text><text
        xml:space="preserve"
        id="text5-61-6"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-9);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -328,7 +328,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,51.100177,115.75773)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan14">Trade post</tspan></text><text
+         id="tspan4">Trade post</tspan></text><text
        xml:space="preserve"
        id="text5-61-7"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-1);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -338,7 +338,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,213.55475,-138.84003)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan15">Transport</tspan></text><text
+         id="tspan5">Transport</tspan></text><text
        xml:space="preserve"
        id="text5-61-3"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-2);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -348,7 +348,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,216.08062,-46.376016)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan16">Alcohol</tspan></text><text
+         id="tspan6">Alcohol</tspan></text><text
        xml:space="preserve"
        id="text5-61-25"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-19);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -358,11 +358,11 @@
        transform="matrix(0.26458333,0,0,0.26458333,215.36094,23.608143)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan17">Fishing
+         id="tspan7">Fishing
 </tspan><tspan
          x="233.78125"
          y="1239.3127"
-         id="tspan18"> equipment</tspan></text><text
+         id="tspan8"> equipment</tspan></text><text
        xml:space="preserve"
        id="text5-61-29"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-7);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -372,7 +372,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,215.41741,113.04257)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan19">Ship equipment</tspan></text><text
+         id="tspan9">Ship equipment</tspan></text><text
        xml:space="preserve"
        id="text5-61-255"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-6);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -382,7 +382,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,385.93283,-50.373239)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan20">Shipyard</tspan></text><text
+         id="tspan10">Shipyard</tspan></text><text
        xml:space="preserve"
        id="text5-61-255-7"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-6-5);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -392,7 +392,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,382.75845,-141.71072)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan21">Hotel</tspan></text><text
+         id="tspan11">Hotel</tspan></text><text
        xml:space="preserve"
        id="text5-61-9"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-1-50);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -402,11 +402,11 @@
        transform="matrix(0.26458333,0,0,0.26458333,384.41615,26.499836)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan22">Currency
+         id="tspan12">Currency
 </tspan><tspan
          x="233.78125"
          y="1239.3127"
-         id="tspan23">exchange</tspan></text><text
+         id="tspan13">exchange</tspan></text><text
        xml:space="preserve"
        id="text5-6"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5-6);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -416,21 +416,22 @@
        transform="matrix(0.26458333,0,0,0.26458333,50.394606,-138.16604)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan24">Water</tspan></text><text
+         id="tspan14">Water</tspan></text><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.3889px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel"
-       x="172.92723"
-       y="89.326874"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel"
+       x="186.92819"
+       y="75.441612"
        id="text1"
        inkscape:label="Titre 1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.3889px;font-family:'Bradley Hand ITC';-inkscape-font-specification:'Bradley Hand ITC';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.6"
-         x="172.92723"
-         y="89.326874">LEGEND</tspan></text></g><g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:'Bradley Hand ITC';-inkscape-font-specification:'Bradley Hand ITC';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.6"
+         x="186.92819"
+         y="75.441612">LEGEND</tspan></text></g><g
      inkscape:groupmode="layer"
      id="g28"
-     inkscape:label="Content FR"><text
+     inkscape:label="Content FR"
+     style="display:none"><text
        xml:space="preserve"
        id="text2"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect28);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -440,7 +441,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,52.906375,-48.478207)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan25">Fruit</tspan></text><text
+         id="tspan15">Fruit</tspan></text><text
        xml:space="preserve"
        id="text3"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect29);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -450,7 +451,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,53.470832,34.785479)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan26">Viande</tspan></text><text
+         id="tspan16">Viande</tspan></text><text
        xml:space="preserve"
        id="text4"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect30);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -460,7 +461,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,51.100177,115.75773)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan29">Poste de traite</tspan></text><text
+         id="tspan17">Poste de traite</tspan></text><text
        xml:space="preserve"
        id="text6"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect31);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -470,7 +471,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,213.55475,-138.84003)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan30">Transport</tspan></text><text
+         id="tspan18">Transport</tspan></text><text
        xml:space="preserve"
        id="text7"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect32);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -480,7 +481,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,216.08062,-46.376016)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan31">Alcool</tspan></text><text
+         id="tspan19">Alcool</tspan></text><text
        xml:space="preserve"
        id="text8"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect33);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -490,11 +491,11 @@
        transform="matrix(0.26458333,0,0,0.26458333,215.36094,23.608143)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan32">Équipment
+         id="tspan20">Équipment
 </tspan><tspan
          x="233.78125"
          y="1239.3127"
-         id="tspan33">de pêche</tspan></text><text
+         id="tspan21">de pêche</tspan></text><text
        xml:space="preserve"
        id="text9"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect34);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -504,7 +505,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,215.41741,113.04257)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan34">Équipment naval</tspan></text><text
+         id="tspan22">Équipment naval</tspan></text><text
        xml:space="preserve"
        id="text10"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect35);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -514,11 +515,11 @@
        transform="matrix(0.26458333,0,0,0.26458333,385.93283,-56.852908)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan35">Chantier
+         id="tspan23">Chantier
 </tspan><tspan
          x="233.78125"
          y="1239.3127"
-         id="tspan36">naval</tspan></text><text
+         id="tspan24">naval</tspan></text><text
        xml:space="preserve"
        id="text11"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect36);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -528,7 +529,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,382.75845,-141.71072)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan37">Hôtel</tspan></text><text
+         id="tspan25">Hôtel</tspan></text><text
        xml:space="preserve"
        id="text13"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect37);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -538,11 +539,11 @@
        transform="matrix(0.26458333,0,0,0.26458333,384.41615,26.499836)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan38">Bureau 
+         id="tspan26">Bureau 
 </tspan><tspan
          x="233.78125"
          y="1239.3127"
-         id="tspan39">d'échange</tspan></text><text
+         id="tspan27">d'échange</tspan></text><text
        xml:space="preserve"
        id="text27"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:75.2126px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect38);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel"
@@ -552,15 +553,15 @@
        transform="matrix(0.26458333,0,0,0.26458333,50.394606,-138.16604)"><tspan
          x="233.78125"
          y="1164.1"
-         id="tspan40">Eau</tspan></text><text
+         id="tspan29">Eau</tspan></text><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.3889px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel"
-       x="172.92723"
-       y="89.326874"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel"
+       x="174.0401"
+       y="84.660683"
        id="text28"
        inkscape:label="Titre 1"><tspan
          sodipodi:role="line"
          id="tspan28"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.3889px;font-family:'Bradley Hand ITC';-inkscape-font-specification:'Bradley Hand ITC';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.6"
-         x="172.92723"
-         y="89.326874">LÉGENDE</tspan></text></g></svg>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:'Bradley Hand ITC';-inkscape-font-specification:'Bradley Hand ITC';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.6"
+         x="174.0401"
+         y="84.660683">LÉGENDE</tspan></text></g></svg>

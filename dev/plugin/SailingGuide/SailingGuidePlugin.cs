@@ -69,11 +69,19 @@ namespace SailingGuide
 
             new Harmony(PluginInfo.PLUGIN_GUID).PatchAll();
 
+            string pagesDir = PageLoader.GetPagesDirectory();
             Logger.LogInfo(
                 "Loaded. ReplaceTutorialScroll="
                 + ReplaceTutorialScroll.Value
                 + ", pages dir="
-                + PageLoader.GetPagesDirectory());
+                + pagesDir);
+
+            if (ReplaceTutorialScroll.Value && PageFileNames.Value.Contains("Al'Ankh_"))
+            {
+                Logger.LogWarning(
+                    "PageFileNames still uses old Al'Ankh_* names. Update gillez.sailingguide.cfg "
+                    + "(PagesDirectory=pages/en, alankh/01-cover.png, …) and run build.ps1.");
+            }
         }
     }
 }

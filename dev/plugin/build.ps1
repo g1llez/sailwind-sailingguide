@@ -17,8 +17,12 @@ dotnet build (Join-Path $ProjectDir "SailingGuide.csproj") -c Release -p:GameDir
 New-Item -ItemType Directory -Force -Path $PluginDir, $LocalBin, $PagesDst | Out-Null
 
 $BuiltDll = Join-Path $ProjectDir "bin\$DllName"
-Copy-Item -Force $BuiltDll $PluginDir
-Copy-Item -Force $BuiltDll $LocalBin
+try {
+    Copy-Item -Force $BuiltDll $PluginDir
+    Copy-Item -Force $BuiltDll $LocalBin
+} catch {
+    Write-Host "DLL copy skipped (close Sailwind to update SailingGuide.dll): $($_.Exception.Message)"
+}
 
 if (Test-Path $ContentPages) {
     Get-ChildItem $ContentPages -Directory -ErrorAction SilentlyContinue | ForEach-Object {

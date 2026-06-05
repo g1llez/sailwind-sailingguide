@@ -40,6 +40,8 @@ namespace SailingGuide.Patches
                 pageRenderer.material.mainTexture = pages[0];
             }
 
+            traverse.Method("UpdateArrows").GetValue();
+
             string displayName = SailingGuidePlugin.ScrollDisplayName.Value;
             if (!string.IsNullOrWhiteSpace(displayName))
             {

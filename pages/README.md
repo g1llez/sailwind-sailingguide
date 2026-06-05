@@ -39,4 +39,4 @@ Same `SailingGuide.dll` in both packages; only the `pages/<lang>/` tree differs.
 
 Optional later: a **pages-only** FR add-on zip for users who already have the EN plugin.
 
-Authoring sources: `dev/Assets/guides/<guide-id>/svg/`.
+Authoring sources: `dev/Assets/guides/archipelago/<id>/pages/en/svg/`.

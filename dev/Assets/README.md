@@ -15,6 +15,6 @@ Assets/
           <island>/       Island map SVGs (e.g. neverdin/)
 ```
 
-Export 2048×2048 PNGs to `pages/en/<id>/` (runtime). Version suffix lives on PNG exports (`_v0.1.0`), not on SVG masters.
+Export 2048×2048 PNGs to `pages/en/<id>/` (runtime). Use the same base names as `pages/en/svg/` (e.g. `01-cover.png`). Versioning is via Git tags/releases, not file names.
 
 Notes, fonts, WIP: `../_workspace/`.

@@ -1,6 +1,6 @@
 # French pages
 
-Export Inkscape/GIMP parchemins here with the **same file names** as `pages/en/alankh/` (e.g. `01-cover_v0.1.0.png`).
+Export Inkscape/GIMP parchemins here with the **same file names** as `pages/en/alankh/` (e.g. `01-cover.png`).
 
 Install or configure:
 

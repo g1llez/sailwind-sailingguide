@@ -58,7 +58,7 @@ namespace SailingGuide
             PageFileNames = Config.Bind(
                 "Guide",
                 "PageFileNames",
-                "alankh/01-cover.png,alankh/02-legend.png,alankh/03-neverdin-1.png,alankh/04-neverdin-2.png,alankh/05-lionsfang.png",
+                "alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png",
                 "Comma-separated PNG paths relative to PagesDirectory (page order).");
 
             ScrollDisplayName = Config.Bind(
@@ -75,13 +75,6 @@ namespace SailingGuide
                 + ReplaceTutorialScroll.Value
                 + ", pages dir="
                 + pagesDir);
-
-            if (ReplaceTutorialScroll.Value && PageFileNames.Value.Contains("Al'Ankh_"))
-            {
-                Logger.LogWarning(
-                    "PageFileNames still uses old Al'Ankh_* names. Update gillez.sailingguide.cfg "
-                    + "(PagesDirectory=pages/en, alankh/01-cover.png, …) and run build.ps1.");
-            }
         }
     }
 }

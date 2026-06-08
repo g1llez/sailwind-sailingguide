@@ -1,0 +1,27 @@
+English
+
+Title1 : ISLAND NAME
+
+Description 1 :
+
+**Enter description**
+
+
+Description 2 :
+
+**Enter description**
+
+
+
+
+Français
+
+Title1 : ISLAND NAME
+
+Description 1 :
+
+**Enter description**
+
+Description 2 :
+
+**Enter description**

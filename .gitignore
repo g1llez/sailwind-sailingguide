@@ -1,6 +1,9 @@
 # Build output
 dev/plugin/SailingGuide/bin/
 dev/plugin/SailingGuide/obj/
+dev/plugin/capture_ortho/CaptureOrtho/bin/
+dev/plugin/capture_ortho/CaptureOrtho/obj/
+dev/plugin/capture_ortho/bin/
 dev/plugin/bin/
 
 # Local / IDE

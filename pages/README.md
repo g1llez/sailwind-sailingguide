@@ -23,7 +23,7 @@ Each **guide** = one scroll in game (list of PNGs in config). File order = `01-`
 ```ini
 [Guide]
 PagesDirectory = pages/en
-PageFileNames = alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png
+PageFileNames = alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png,alankh/20-oldankhtown-1.png,alankh/21-oldankhtown-2.png,alankh/22-oldankhtown-3.png
 ```
 
 For French in-game, set `PagesDirectory = pages/fr` (or install the FR release zip).

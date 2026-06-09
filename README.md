@@ -40,7 +40,7 @@ Config: `BepInEx/config/gillez.sailingguide.cfg`
 [Guide]
 ReplaceTutorialScroll = true
 PagesDirectory = pages/en
-PageFileNames = alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png
+PageFileNames = alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png,alankh/20-oldankhtown-1.png,alankh/21-oldankhtown-2.png,alankh/22-oldankhtown-3.png
 ScrollDisplayName = The Sailor's Diary — Al'Ankh
 ```
 

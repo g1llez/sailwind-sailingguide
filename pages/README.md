@@ -14,7 +14,7 @@ pages/
     seamanship/
 ```
 
-Each **guide** = one scroll in game (list of PNGs in config). File order = `01-`, `02-`, … in the guide folder.
+Each **guide** = one scroll in game. File order = sorted PNG filenames in the guide folder (`01-`, `02-`, `15-`, …).
 
 ## Config
 
@@ -23,10 +23,13 @@ Each **guide** = one scroll in game (list of PNGs in config). File order = `01-`
 ```ini
 [Guide]
 PagesDirectory = pages/en
-PageFileNames = alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png,alankh/20-oldankhtown-1.png,alankh/21-oldankhtown-2.png,alankh/22-oldankhtown-3.png
+GuideId = alankh
+PageFileNames =
 ```
 
-For French in-game, set `PagesDirectory = pages/fr` (or install the FR release zip).
+Empty `PageFileNames` = auto-scan `pages/<lang>/<GuideId>/*.png` (v0.1.1+). Add new island pages → run `build.ps1` only (no DLL rebuild, no config edit). Optional: explicit `PageFileNames` list to override.
+
+For French in-game, set `PagesDirectory = pages/fr`.
 
 ## Releases (EN / FR)
 

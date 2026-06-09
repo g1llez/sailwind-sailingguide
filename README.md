@@ -40,11 +40,14 @@ Config: `BepInEx/config/gillez.sailingguide.cfg`
 [Guide]
 ReplaceTutorialScroll = true
 PagesDirectory = pages/en
-PageFileNames = alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png,alankh/20-oldankhtown-1.png,alankh/21-oldankhtown-2.png,alankh/22-oldankhtown-3.png
+GuideId = alankh
+PageFileNames =
 ScrollDisplayName = The Sailor's Diary — Al'Ankh
 ```
 
-Use `pages/fr` + French `PageFileNames` for the FR package (same file names under `fr/alankh/`).
+**v0.1.1+** — leave `PageFileNames` empty to auto-load all `*.png` in `pages/<lang>/<GuideId>/`, sorted by filename (`01-cover.png`, `15-lionsfang.png`, …). Set an explicit comma-separated list to override order or exclude pages. Prefix WIP files with `_` to skip them.
+
+Use `PagesDirectory = pages/fr` for French in-game (same filenames under `fr/alankh/`).
 
 **v0.1.x** replaces the tutorial scroll (guide `alankh`). **v0.2.0+** = extra scrolls per guide (e.g. `seamanship`).
 

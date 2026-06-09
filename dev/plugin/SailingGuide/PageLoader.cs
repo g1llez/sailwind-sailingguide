@@ -97,5 +97,41 @@ namespace SailingGuide
 
             return Path.Combine(Paths.PluginPath, PluginInfo.PLUGIN_NAME, configured);
         }
+
+        internal static string[] DiscoverPageFiles(string pagesDirectory, string guideId)
+        {
+            if (string.IsNullOrWhiteSpace(guideId))
+            {
+                SailingGuidePlugin.LogWarning("GuideId is empty — cannot discover pages.");
+                return new string[0];
+            }
+
+            guideId = guideId.Trim().Replace('\\', '/').Trim('/');
+            string guideFolder = Path.Combine(pagesDirectory, guideId.Replace('/', Path.DirectorySeparatorChar));
+            if (!Directory.Exists(guideFolder))
+            {
+                SailingGuidePlugin.LogWarning("Guide folder not found: " + guideFolder);
+                return new string[0];
+            }
+
+            string[] files = Directory.GetFiles(guideFolder, "*.png", SearchOption.TopDirectoryOnly);
+            Array.Sort(files, StringComparer.OrdinalIgnoreCase);
+
+            var list = new List<string>(files.Length);
+            foreach (string file in files)
+            {
+                string name = Path.GetFileName(file);
+                if (string.IsNullOrEmpty(name) || name.StartsWith("_"))
+                {
+                    continue;
+                }
+
+                list.Add(guideId + "/" + name);
+            }
+
+            SailingGuidePlugin.LogInfo(
+                "Auto-discovered " + list.Count + " page(s) in " + guideFolder);
+            return list.ToArray();
+        }
     }
 }

@@ -12,6 +12,7 @@ namespace SailingGuide
 
         internal static ConfigEntry<bool> ReplaceTutorialScroll;
         internal static ConfigEntry<string> PagesDirectory;
+        internal static ConfigEntry<string> GuideId;
         internal static ConfigEntry<string> PageFileNames;
         internal static ConfigEntry<string> ScrollDisplayName;
 
@@ -25,18 +26,35 @@ namespace SailingGuide
             Instance.Logger.LogWarning(message);
         }
 
+        internal static bool UsesAutoPageDiscovery()
+        {
+            return IsAutoPageList(PageFileNames.Value);
+        }
+
         internal static string[] GetPageFileNames()
         {
-            string raw = PageFileNames.Value;
-            if (string.IsNullOrWhiteSpace(raw))
+            if (UsesAutoPageDiscovery())
             {
-                return new string[0];
+                return PageLoader.DiscoverPageFiles(
+                    PageLoader.GetPagesDirectory(),
+                    GuideId.Value);
             }
 
-            return raw.Split(',')
+            return PageFileNames.Value.Split(',')
                 .Select(s => s.Trim())
                 .Where(s => s.Length > 0)
                 .ToArray();
+        }
+
+        private static bool IsAutoPageList(string raw)
+        {
+            if (string.IsNullOrWhiteSpace(raw))
+            {
+                return true;
+            }
+
+            raw = raw.Trim();
+            return raw.Equals("auto", System.StringComparison.OrdinalIgnoreCase) || raw == "*";
         }
 
         private void Awake()
@@ -55,11 +73,17 @@ namespace SailingGuide
                 "pages/en",
                 "Language/content root under the plugin folder (e.g. pages/en, pages/fr). Absolute paths supported.");
 
+            GuideId = Config.Bind(
+                "Guide",
+                "GuideId",
+                "alankh",
+                "Guide subfolder under PagesDirectory. Used when PageFileNames is empty (auto scan *.png, sorted by name).");
+
             PageFileNames = Config.Bind(
                 "Guide",
                 "PageFileNames",
-                "alankh/01-cover.png,alankh/02-legend.png,alankh/15-lionsfang.png,alankh/18-neverdin-1.png,alankh/19-neverdin-2.png,alankh/20-oldankhtown-1.png,alankh/21-oldankhtown-2.png,alankh/22-oldankhtown-3.png",
-                "Comma-separated PNG paths relative to PagesDirectory (page order).");
+                string.Empty,
+                "Comma-separated PNG paths relative to PagesDirectory. Leave empty (or 'auto') to load all PNGs from PagesDirectory/GuideId/ sorted by filename.");
 
             ScrollDisplayName = Config.Bind(
                 "Guide",
@@ -70,11 +94,22 @@ namespace SailingGuide
             new Harmony(PluginInfo.PLUGIN_GUID).PatchAll();
 
             string pagesDir = PageLoader.GetPagesDirectory();
+            string[] pages = GetPageFileNames();
             Logger.LogInfo(
                 "Loaded. ReplaceTutorialScroll="
                 + ReplaceTutorialScroll.Value
                 + ", pages dir="
-                + pagesDir);
+                + pagesDir
+                + ", guide="
+                + GuideId.Value
+                + ", page mode="
+                + (UsesAutoPageDiscovery() ? "auto" : "manual")
+                + ", page count="
+                + pages.Length);
+            for (int i = 0; i < pages.Length; i++)
+            {
+                Logger.LogInfo("  [" + i + "] " + pages[i]);
+            }
         }
     }
 }
